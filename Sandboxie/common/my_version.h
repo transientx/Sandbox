@@ -30,41 +30,41 @@
 #define SBIE_INSTALLER_PATH_32  "..\\Bin\\Win32\\SandboxieInstall32.exe"
 #define SBIE_INSTALLER_PATH_64  "..\\Bin\\x64\\SandboxieInstall64.exe"
 
-#define MY_PRODUCT_NAME_STRING  "Sandboxie"
-#define MY_COMPANY_NAME_STRING  "xanasoft.com"
-#define MY_COPYRIGHT_STRING     "Copyright © 2020 by David Xanatos (xanasoft.com)"
-#define MY_COPYRIGHT_STRING_OLD "Copyright © 2004-2020 by Sandboxie Holdings, LLC"
+#define MY_PRODUCT_NAME_STRING  "TrsxSb"
+#define MY_COMPANY_NAME_STRING  "TransientX.com"
+#define MY_COPYRIGHT_STRING     "Copyright ?2020 by David Xanatos (xanasoft.com)"
+#define MY_COPYRIGHT_STRING_OLD "Copyright ?2004-2020 by Sandboxie Holdings, LLC"
 
-#define SANDBOXIE               L"Sandboxie"
-#define SBIE                    L"SBIE"
+#define SANDBOXIE               L"TrsxSb"
+#define SBIE                    L"TXSB"
 
-#define SANDBOXIE_USER			L"Sandboxie"
+#define SANDBOXIE_USER			L"TrsxSb"
 
 #define SBIE_BOXED_             SBIE L"_BOXED_"
 #define SBIE_BOXED_LEN          (4 + 7)
 
-#define SANDBOXIE_INI           L"Sandboxie.ini"
+#define SANDBOXIE_INI           L"TrsxSb.ini"
 
-#define SBIEDRV                 L"SbieDrv"
-#define SBIEDRV_SYS             L"SbieDrv.sys"
+#define SBIEDRV                 L"TrsxSbDrv"
+#define SBIEDRV_SYS             L"TrsxSbDrv.sys"
 
-#define SBIESVC                 L"SbieSvc"
-#define SBIESVC_EXE             L"SbieSvc.exe"
+#define SBIESVC                 L"TrsxSbSvc"
+#define SBIESVC_EXE             L"TrsxSbSvc.exe"
 
-#define SANDBOXIE_CONTROL       L"SandboxieControl"
-#define SBIECTRL_EXE            L"SbieCtrl.exe"
-#define SBIECTRL_               L"SbieCtrl_"
+#define SANDBOXIE_CONTROL       L"TrsxSbControl"
+#define SBIECTRL_EXE            L"TrsxSbCtrl.exe"
+#define SBIECTRL_               L"TrsxSbCtrl_"
 
 #define START_EXE               L"Start.exe"
 
 // see also environment variable in session.bat
-#define SBIEDLL                 L"SbieDll"
+#define SBIEDLL                 L"TrsxSbDll"
 
-#define SBIEMSG_DLL             L"SbieMsg.dll"
-#define SBIE_IN_MSGS            L"SBIE"
+#define SBIEMSG_DLL             L"TrsxSbMsg.dll"
+#define SBIE_IN_MSGS            L"TXSB"
 
-#define SBIEINI                 L"SbieIni"
-#define SBIEINI_EXE             L"SbieIni.exe"
+#define SBIEINI                 L"TrsxSbIni"
+#define SBIEINI_EXE             L"TrsxSbIni.exe"
 
 #define SANDBOX_VERB            L"sandbox"
 

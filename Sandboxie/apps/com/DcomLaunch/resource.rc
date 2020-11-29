@@ -52,7 +52,7 @@ BEGIN
    OPTIONAL_VALUE("InternalName", "DcomLaunch\0")
             VALUE "LegalCopyright", MY_COPYRIGHT_STRING "\0"
             VALUE "LegalTrademarks", "\0"
-   OPTIONAL_VALUE("OriginalFilename", "SandboxieDcomLaunch.exe\0")
+   OPTIONAL_VALUE("OriginalFilename", "TrsxSbDcomLaunch.exe\0")
             VALUE "PrivateBuild", "\0"
             VALUE "ProductName", MY_PRODUCT_NAME_STRING "\0"
             VALUE "ProductVersion", MY_VERSION_STRING "\0"

@@ -70,10 +70,10 @@
     <TargetName>SandboxieRpcSs</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SbieRelease|Win32'">
-    <TargetName>SandboxieRpcSs</TargetName>
+    <TargetName>TrsxSbRpcSs</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SbieRelease|x64'">
-    <TargetName>SandboxieRpcSs</TargetName>
+    <TargetName>TrsxSbRpcSs</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SbieDebug|Win32'">
     <ClCompile>
@@ -98,7 +98,7 @@
       <MinimalRebuild />
     </ClCompile>
     <Link>
-      <AdditionalDependencies>SbieDll.lib;ws2_32.lib;advapi32.lib;kernel32.lib;ntdll.lib;gdi32.lib;user32.lib;secur32.lib;psapi.lib</AdditionalDependencies>
+      <AdditionalDependencies>TrsxSbDll.lib;ws2_32.lib;advapi32.lib;kernel32.lib;ntdll.lib;gdi32.lib;user32.lib;secur32.lib;psapi.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SbieRelease|x64'">
@@ -106,7 +106,7 @@
       <MinimalRebuild />
     </ClCompile>
     <Link>
-      <AdditionalDependencies>SbieDll.lib;ws2_32.lib;advapi32.lib;kernel32.lib;ntdll.lib;gdi32.lib;user32.lib;secur32.lib;psapi.lib</AdditionalDependencies>
+      <AdditionalDependencies>TrsxSbDll.lib;ws2_32.lib;advapi32.lib;kernel32.lib;ntdll.lib;gdi32.lib;user32.lib;secur32.lib;psapi.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
