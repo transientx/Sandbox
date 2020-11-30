@@ -596,6 +596,7 @@ _FX BOOLEAN File_InitPaths(PROCESS *proc,
         //
         L"\\Device\\NamedPipe\\spoolss",
         L"\\Device\\NamedPipe\\spooler*",
+		L"\\Device\\NamedPipe\\tx_*",
         L"%DefaultSpoolDirectory%\\*",
         L"%DefaultSpoolDirectory2%\\*",
         L"\\Device\\NamedPipe\\*_doPDF*",           // doPDF
