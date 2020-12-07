@@ -638,6 +638,13 @@ _FX NTSTATUS File_GetName(
     } else
         return STATUS_OBJECT_PATH_SYNTAX_BAD;
 
+	//
+	// allow access to minifilters
+	//
+
+	if (_wcsicmp(*OutTruePath, L"\\FileSystem\\Filters\\FltMgrMsg") == 0)
+		return STATUS_BAD_INITIAL_PC;
+
     //
     // remove duplicate backslashes
     //
@@ -2409,6 +2416,11 @@ _FX NTSTATUS File_NtCreateFileImpl(
             ObjectAttributes->RootDirectory, ObjectAttributes->ObjectName,
             &TruePath, &CopyPath, &FileFlags);
     }
+
+	if (wcsstr(TruePath, L"FltMgrMsg") != 0)
+	{
+		int a = 0;
+	}
 
     //if ( (wcsstr(TruePath, L"Harddisk0\\DR0") != 0) || wcsstr(TruePath, L"HarddiskVolume3") != 0) {
     //  while (! IsDebuggerPresent()) { OutputDebugString(L"BREAK\n"); Sleep(500); }
